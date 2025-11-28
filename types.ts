@@ -16,7 +16,6 @@ export interface TeamMember {
   name: string;
   role: string;
   image: string;
-  quote: string;
 }
 
 export interface StatItem {

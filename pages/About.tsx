@@ -43,7 +43,7 @@ const About = () => {
                                <h3 className="text-xl font-bold text-white mb-1 group-hover:text-daino-cyan transition-colors">{member.name}</h3>
                                <p className="text-sm text-gray-400 font-mono mb-3">{member.role}</p>
                                <p className="text-sm text-white/80 italic border-l-2 border-daino-cyan pl-3 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-                                   "{member.quote}"
+                                   
                                </p>
                                <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200">
                                    <Linkedin size={20} className="text-white hover:text-daino-cyan" />

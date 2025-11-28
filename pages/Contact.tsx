@@ -82,7 +82,7 @@ const Contact = () => {
                {/* Map Area */}
                <div className="relative h-[600px] rounded-2xl overflow-hidden border border-white/20 bg-[#050B14]">
                    {/* Using the blueprint image as a stylized map background */}
-                   <img src={IMAGES.blueprint} alt="Site Map" className="w-full h-full object-cover opacity-30 invert" />
+                   <img src={IMAGES.plan} alt="Site Map" className="w-full h-full object-cover opacity-30 " />
                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <div className="relative">
                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-daino-cyan opacity-75"></span>

@@ -12,9 +12,9 @@ export const IMAGES = {
   blueprint: "./image/Team.jpg", // Image 7 - Blueprint
   truckCharging: "./image/electric_lkw_laden.png", // Image 8 - Charging
   interiorMall: "./image/inside_shot.png", // Image 10 - Interior
-  greenRoof: "./public/image/Gemini_Generated_Image_xgoh8fxgoh8fxgoh.png", // Image 11 - Nature/Green
+  greenRoof: "./public/image/green.png", // Image 11 - Nature/Green
   teamPlaceholder: "./image/Gemini_Generated_Image_xgoh8fxgoh8fxgoh.png",
-  
+  plan: "./image/plan.png",
 };
 
 export const NAV_ITEMS: NavItem[] = [
@@ -27,11 +27,11 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
-  { name: "Dr. Elena Weber", role: "CEO & Founder", image: "./image/Aras.jpg", quote: "Redefining the pause." },
-  { name: "Marco Rossi", role: "Head of Architecture", image: "./image/Alla.jpeg", quote: "Form follows nature." },
-  { name: "Sarah Jenkins", role: "Sustainability Lead", image: "./image/Felix.jpg", quote: "Zero waste, infinite potential." },
-  { name: "Kenji Sato", role: "Tech Innovation", image: "./image/Tim.png", quote: "AI is our infrastructure." },
-  { name: "Amara Okani", role: "Customer Experience", image: "./image/Deny.jpg", quote: "Hospitality meets future." },
-  { name: "David Müller", role: "Logistics Director", image: "./image/Maik.jpg", quote: "Efficiency in motion." },
-  { name: "Lina Schmidt", role: "Green Energy Engineer", image: "./image/Jandost.jpg", quote: "Powering the journey." },
+  { name: "Aras Shikh-Mousa", role: "", image: "./image/Aras.jpg" },
+  { name: "Alaa Khadijeh", role: "", image: "./image/Alla.jpeg" },
+  { name: "Felix Ritz-Valentin", role: "", image: "./image/Felix.jpg"},
+  { name: "Tim Kreutzer", role: "", image: "./image/Tim.png"  },
+  { name: "Deny Deprez", role: "", image: "./image/Deny.jpg" },
+  { name: "Maik Girlinger", role: "", image: "./image/Maik.jpg" },
+  { name: "Jandost Ahmad", role: "", image: "./image/Jandost.jpg" },
 ];
