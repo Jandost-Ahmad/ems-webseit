@@ -28,7 +28,7 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const TEAM_MEMBERS: TeamMember[] = [
   { name: "Aras Shikh-Mousa", role: "", image: "./image/Aras.jpg" },
-  { name: "Alaa Khadijeh", role: "", image: "./image/Alla.jpeg" },
+  { name: "Alaa-Aldin Khadijeh", role: "", image: "./image/Alla.jpeg" },
   { name: "Felix Ritz-Valentin", role: "", image: "./image/Felix.jpg"},
   { name: "Tim Kreutzer", role: "", image: "./image/Tim.png"  },
   { name: "Deny Deprez", role: "", image: "./image/Deny.jpg" },
