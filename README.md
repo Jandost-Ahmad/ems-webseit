@@ -1,20 +1,68 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# EMS Website — Source Code
 
-# Run and deploy your AI Studio app
+This repository contains the source code for the EMS website, a small multi-page marketing/information site built with React, TypeScript and Vite.
 
-This contains everything you need to run your app locally.
+The site includes the following pages: `Home`, `About`, `Services`, `Business`, `Sustainability`, and `Contact`. It also contains a `SustainabilityChart` component used to display sustainability-related data.
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## Tech stack
 
-## Run Locally
+- **Framework:** React
+- **Language:** TypeScript
+- **Bundler / Dev Server:** Vite
+- **UI / libs:** Framer Motion, Lucide icons, Recharts
 
-**Prerequisites:**  Node.js
-
+## Quick start (local development)
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+```powershell
+npm install
+```
+
+2. Start the dev server:
+
+```powershell
+npm run dev
+```
+
+3. Open the URL shown by Vite (usually `http://localhost:5173`) in your browser.
+
+## Build & Preview
+
+Build the production bundle:
+
+```powershell
+npm run build
+```
+
+Preview the production build locally:
+
+```powershell
+npm run preview
+```
+
+## Project structure (key files)
+
+- `index.html` — app entry HTML
+- `index.tsx`, `App.tsx` — React entry and app shell
+- `vite.config.ts`, `tsconfig.json` — build and TypeScript config
+- `components/` — shared UI components (e.g. `Layout.tsx`, `SustainabilityChart.tsx`)
+- `pages/` — page components (`Home.tsx`, `About.tsx`, `Services.tsx`, `Sustainability.tsx`, `Business.tsx`, `Contact.tsx`)
+- `public/image/` — static images
+
+## Notes
+
+- The project uses the scripts defined in `package.json`: `dev`, `build`, `preview`.
+- If you see errors when running `npm run dev`, make sure you have a recent LTS version of Node.js installed and that dependencies installed successfully.
+
+## Deployment
+
+This is a static SPA that can be deployed to any static host (Netlify, Vercel, GitHub Pages, Azure Static Web Apps, etc.). Build with `npm run build` and follow your host's static site deployment instructions.
+
+## Contributing / Contact
+
+If you want to suggest changes or add content, open an issue or create a pull request. For quick local edits, edit the files under `pages/` and `components/` and test with the dev server.
+
+---
+
+_README updated to provide a clear explanation of the site, tech stack and how to run it locally._
