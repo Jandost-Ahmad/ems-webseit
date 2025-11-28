@@ -12,7 +12,7 @@ export const IMAGES = {
   blueprint: "./image/Team.jpg", // Image 7 - Blueprint
   truckCharging: "./image/electric_lkw_laden.png", // Image 8 - Charging
   interiorMall: "./image/inside_shot.png", // Image 10 - Interior
-  greenRoof: "./public/image/green.png", // Image 11 - Nature/Green
+  greenRoof: "./image/green.png", // Image 11 - Nature/Green
   teamPlaceholder: "./image/Gemini_Generated_Image_xgoh8fxgoh8fxgoh.png",
   plan: "./image/plan.png",
 };
