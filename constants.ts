@@ -1,5 +1,6 @@
 import { NavItem, TeamMember } from './types';
 
+
 // Using high-quality Unsplash images to represent the visual assets described in the prompt
 export const IMAGES = {
   heroAerial: "./image/Gemini_Generated_Image_no69fkno69fkno69.png", // Local DAINO aerial image
@@ -11,7 +12,7 @@ export const IMAGES = {
   blueprint: "./image/Team.jpg", // Image 7 - Blueprint
   truckCharging: "./image/electric_lkw_laden.png", // Image 8 - Charging
   interiorMall: "./image/inside_shot.png", // Image 10 - Interior
-  greenRoof: "./image/Gemini_Generated_Image_xgoh8fxgoh8fxgoh.png", // Image 11 - Nature/Green
+  greenRoof: "./public/image/Gemini_Generated_Image_xgoh8fxgoh8fxgoh.png", // Image 11 - Nature/Green
   teamPlaceholder: "./image/Gemini_Generated_Image_xgoh8fxgoh8fxgoh.png",
   
 };
